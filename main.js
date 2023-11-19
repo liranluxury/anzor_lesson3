@@ -175,7 +175,6 @@ function addElement(item) {
 } //как сделать чтобы больше не добавлялось если кончился блок?
 addElement(addBtn);
 
-
 /* 12)Автозаполнение поля:
 Создайте поле ввода (например, для города).
 Напишите функцию, которая автоматически предлагает варианты автозаполнения при вводе.
@@ -219,9 +218,17 @@ Input: ("JavaScript")
 19) Преобразование регистра:
 
 Описание задачи: Создайте функцию, которая принимает строку и возвращает новую строку, где все символы будут в верхнем регистре, а затем в нижнем регистре.
+
 Input: ("Random CaSeS")
 Ожидаемый вывод: "RANDOM CASES", "random cases" */
-
+function uppeString(str) {
+  return str.toUpperCase();
+}
+function lowerString(str) {
+  return str.toLowerCase();
+}
+console.log(uppeString("Random CaSeS"));
+console.log(lowerString("Random CaSeS"));
 /* 20) 
 Удаление пробелов:
 
