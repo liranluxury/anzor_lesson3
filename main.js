@@ -259,3 +259,14 @@ console.log(changeStr("Hello World", "Universe"));
 Описание задачи: Создайте функцию, которая принимает строку и подстроку, а затем возвращает индекс первого вхождения подстроки в строку.
 Input: ("JavaScript is fun", "is")
 Ожидаемый вывод: 4 */
+function findStr(str, pdstr) {
+  let arr = str.split(" ");
+  let newArr = [];
+  arr.forEach((item, index) => {
+    if (item === pdstr) {
+      newArr.push(index);
+    }
+  });
+  return newArr;
+}
+console.log(findStr("JavaScript is fun", "is"));
