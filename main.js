@@ -246,6 +246,12 @@ console.log(fullStr(" Hello World "));
 Описание задачи: Создайте функцию, которая принимает строку и две подстроки. Замените все вхождения первой подстроки на вторую.
 Input: ("Hello World", "World", "Universe")
 Ожидаемый вывод: "Hello Universe" */
+function changeStr(str, pdstr) {
+  let arr = str.split(" ");
+  let newStr = arr[0] + " " + pdstr;
+  return newStr;
+}
+console.log(changeStr("Hello World", "Universe"));
 
 /* 21) 
 Поиск подстроки:
