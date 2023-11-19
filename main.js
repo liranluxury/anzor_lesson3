@@ -229,13 +229,17 @@ function lowerString(str) {
 }
 console.log(uppeString("Random CaSeS"));
 console.log(lowerString("Random CaSeS"));
+
 /* 20) 
 Удаление пробелов:
 
 Описание задачи: Создайте функцию, которая принимает строку и удаляет все пробелы из неё.
 Input: (" Hello World ")
 Ожидаемый вывод: "HelloWorld" */
-
+function fullStr(str) {
+  return str.replace(/ /g, "");
+}
+console.log(fullStr(" Hello World "));
 /* 
 21) Замена подстроки:
 
