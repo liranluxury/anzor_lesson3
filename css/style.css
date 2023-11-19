@@ -1,0 +1,68 @@
+.container {
+  width: 800px;
+  padding: 0 15px;
+}
+.block1 {
+  height: 300px;
+  background-color: #f3fcc4;
+  padding: 30px;
+  margin: 20px;
+}
+.block2 {
+  height: 70px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #c4fcc9;
+}
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #0c7171;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+#inputOne {
+  width: 180px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.block3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 30px;
+  height: 400px;
+  background-color: #a090d3;
+}
+#add_btn {
+  width: 85px;
+  height: 45px;
+  background-color: #e2e7ff;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #41385f;
+  &:hover {
+    background-color: #e3ffe2;
+  }
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+}
+.field {
+  width: 480px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.wrapper_fields {
+  width: 500px;
+  border-right: 2px dotted #e3ffe29b;
+  padding-right: 10px;
+}
