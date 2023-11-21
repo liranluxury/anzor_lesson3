@@ -207,7 +207,22 @@ addElement(addBtn);
 Создайте поле ввода для пароля с кнопкой, которая переключает видимость пароля.
 Напишите функцию, которая изменяет тип поля ввода с "password" на "text" и наоборот при клике на кнопку.
 Вход: Поле ввода для пароля и кнопка. */
-
+const btnPass = document.getElementById("password");
+const passField = document.getElementById("pass");
+function viewPass(btn) {
+  let isHidden = true;
+  btn.addEventListener("click", function () {
+    if (isHidden) {
+      passField.setAttribute("type", "text");
+      btn.innerHTML = "Hide";
+    } else {
+      passField.setAttribute("type", "password");
+      btn.innerHTML = "View";
+    }
+    isHidden = !isHidden;
+  });
+}
+viewPass(btnPass);
 /* 18)Извлечение подстроки:
 
 Описание задачи: Создайте функцию, которая принимает строку и возвращает подстроку из середины строки.

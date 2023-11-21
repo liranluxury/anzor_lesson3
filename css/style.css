@@ -21,11 +21,14 @@
   font-size: 18px;
   margin-bottom: 15px;
 }
-#inputOne {
+#inputOne,
+#pass {
   width: 180px;
   height: 30px;
+  padding: 10px;
   border-radius: 4px;
   background-color: #fff;
+  margin-right: 20px;
 }
 .block3 {
   display: flex;
@@ -35,7 +38,8 @@
   height: 400px;
   background-color: #a090d3;
 }
-#add_btn {
+#add_btn,
+#password {
   width: 85px;
   height: 45px;
   background-color: #e2e7ff;
@@ -66,3 +70,10 @@
   border-right: 2px dotted #e3ffe29b;
   padding-right: 10px;
 }
+.block4 {
+  margin: 20px;
+  padding: 30px;
+  height: 90px;
+  background-color: #f0e2ff9b;
+}
+
